@@ -51,7 +51,7 @@ export default class ListaPessoas extends Component{
                     <Column title="EMAIL" dataIndex="email" key="email"/>
                     <Column title="VACINADA" dataIndex="isVacinada" key="isVacinada" render= {(text, record) => (<p>{String(record.isVacinada)}</p>)}/>
                     <Column title="ATUALIZAR" key="atualizar"
-                    render={(text, record) => (<Button onClick={} type="primary">Alterar status</Button>)}/>
+                    render={(text, record) => (<Button onClick={()=>{}} type="primary">Alterar status</Button>)}/>
                 </Table>
 
                 </div>
